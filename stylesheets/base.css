@@ -1,0 +1,217 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+
+/* Table of Content
+==================================================
+	#Reset & Basics
+	#Basic Styles
+	#Site Styles
+	#Typography
+	#Links
+	#Lists
+	#Images
+	#Buttons
+	#Forms
+	#Misc */
+
+
+/* #Reset & Basics (Inspired by E. Meyers)
+================================================== */
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline; }
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block; }
+	body {
+		line-height: 1; }
+	ol, ul {
+		list-style: none; }
+	blockquote, q {
+		quotes: none; }
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none; }
+	table {
+		border-collapse: collapse;
+		border-spacing: 0; }
+
+
+/* #Basic Styles
+================================================== */
+	body {
+		background: #719394; 
+		background-image: url(../images/bg/grid-tile.jpg);}
+		
+body, a, a:visited{ 	/*font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;*/ /* testing larger font stack that includes linux fonts below*/
+		font: 14px/21px Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "DejaVu Sans Condensed", "Liberation Sans", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color: #fff;
+		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+		-webkit-text-size-adjust: 100%;
+ }
+ .center, #it { margin-left: auto; margin-right: auto;}
+ .centertxt {text-align:center;}
+ /*solid charcoal border*/
+ .box,.partners, #it {border: 3px solid #414a49; }
+ .dkgrn {background: #BF3030;
+background-image: url(../images/bg/grid-tile-dkgrn.jpg);
+/* margin:5px; this is for something in the about section*/}
+ /*dotted bottom border*/
+ #visionText_showHide, #missionText_showHide,#valuesText_showHide, #focusText_showHide, #goalsText_showHide, #atGlanceText_showHide {border: dashed; color: #fff; border-width: 0 0 1px;}
+ 
+ /* #Links
+================================================== */
+	a, a:visited { font-weight:bold; text-decoration: underline; }
+	a, a:active { color:#FFFFFF;  }
+	a:visited { color:#555555;  }
+   a:hover { color:#333333;  }
+
+/* #Typography
+================================================== */
+hr { border: dashed; color: #fff; border-width: 1px 0 0; clear: both; /*margin: 10px 0 30px;*/ height: 0; }
+	h1, h2, h3, h4, h5, h6 {
+		color: #fff; /*#181818;*/
+		/*font-family: "Georgia", "Times New Roman", serif;*/
+		font-weight: normal; }
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+	h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
+	h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; }
+	h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
+	h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
+	h5 { font-size: 17px; line-height: 24px; }
+	h6 { font-size: 14px; line-height: 21px; }
+/* #header
+================================================== */
+.topHeaderBar,.shareHeaderBar { display: inline-block; width: 100%;
+background: #414a49; background-image: url(../images/bg/tile-blk.jpg);
+border-left:1px solid #414a49; border-right:1px solid #414a49; border-bottom:1px solid #414a49;
+	box-shadow: 0px 20px 40px 0px rgba(255, 255, 255, 0.1) inset, 0px 1px 1px 0px rgba(255, 255, 255, 0.05) inset;}
+.remove-bottom { margin-bottom: 0 !important; }
+.trans {float: left; clear: both;}
+.topSearch { float: right;}
+.shareIcons ul li {float: left;}
+/* #rainbow navigation
+================================================== */
+.main-nav {margin: 0 auto; padding: 1em 0 0 0;}
+
+/*this looks like clear fix, so I might not need it*/
+.main-nav:after {
+        content: ".";
+        display: block;
+        line-height: 1px;
+        font-size: 1px;
+        clear: both;
+}
+ul.rainbow {
+        list-style: none;
+        padding: 0;
+        margin: 0 auto;
+        width: 100%;
+        font-size: 0.8em;
+}
+ul.rainbow li {
+        display: block;
+        float: left;
+        width: 12.5%;
+        margin: 0;
+        padding: 0;
+}
+ul.rainbow li a {
+        display: block;
+        width: 100%;
+        padding: 0.5em;
+        height:30px;
+	     line-height:30px;
+        font-weight: bold;
+        text-decoration: none;
+  }
+  .main-nav>ul.rainbow li a { width: auto; }
+
+ul.rainbow li#active a {
+        background: #f0e7d7;
+        color: #800000;
+}
+
+ul.rainbow li a:hover, ul.rainbow li#active a:hover {
+       /* color: #800000;*/
+        background: transparent;
+     
+}
+/* #infoBoxes
+================================================== */
+.box { font-weight: bold; color: #fff; padding: 20px; margin: 0 0 10px;}
+/* #rainbow colors
+================================================== */
+.red{background: #BF3030; }
+.orange{background: #f07502;}
+.yellow{background: #ffbc00;}
+.green{background: #00B366;}
+.blue{background: #0184cd;}
+.indigo{background: #5C5CA1;}
+.violet{background: #73458A;}
+.charcoal {background: #414a49; }
+
+/* #Mission section
+================================================== */
+.strategicPlan{ font-size:11px;}
+.strategicPlan ul { list-style: square; margin-left: 20px;  }
+
+
+/* #Footer
+================================================== */
+footer { background: #414a49; 
+		background-image: url(../images/bg/tile-blk.jpg);
+		border: dashed; color: #fff; border-width: 1px 0;
+}
+footer, footer a {font-size: 10px;}
+footer a:hover { color:#BBBBBB;  }
+.copyright, .copyright a { font-size: 9px;}
+#it {width: 75%; padding: 10px;}
+/* #Forms
+================================================== */
+
+/* #Search
+================================================== */
+#search {margin: 7px 0;}
+
+#search input[type="text"] {
+    background: url(../images/misc/search-dark.png) no-repeat 10px 6px #999999;
+    border: 0 none;
+    font: bold 12px Arial,Helvetica,Sans-serif;
+    color: #fff;
+    width: 150px;
+    padding: 6px 15px 6px 35px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    margin-right: 10px;
+    border-radius: 20px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+    }
+
+/*#search input[type="text"]:focus {width: 200px;}*/
+
+/* #Misc
+================================================== */
+	/*.remove-bottom { margin-bottom: 0 !important; }
+	.half-bottom { margin-bottom: 10px !important; }
+	.add-bottom { margin-bottom: 20px !important; }
+*/
+

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>JCPS | Jefferson County Public Schools, Louisville, Kentucky</title>
+	<meta name="description" content="">
+	<meta name="author" content="sue" >
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="stylesheets/base.css">
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/layout.css">
+
+	<!--<link rel="stylesheet" href="css/responsive.css" />-->
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<!-- jQuery
+
+	================================================== -->
+<script src="js/jquery-1.9.1.min.js"></script>
+	<!-- Favicons
+	================================================== -->
+<link rel="shortcut icon" href="images/favicon.ico">
+	<!--	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">-->
+
+ 
+<script type="text/javascript">
+//hidingtoggling vision section
+	$(document).ready(function() {
+		$("#visionText").hide();
+	
+$("#visionText_showHide").click(function() {
+$("#visionText").toggle('fast');
+});
+	});
+	//hidingtoggling mission section
+	$(document).ready(function() {
+		$("#missionText").hide();
+	
+$("#missionText_showHide").click(function() {
+$("#missionText").toggle('fast');
+});
+	});
+	//hidingtoggling values section
+	$(document).ready(function() {
+		$("#valuesText").hide();
+	
+$("#valuesText_showHide").click(function() {
+$("#valuesText").toggle('fast');
+});
+	});
+		//hidingtoggling focus section
+	$(document).ready(function() {
+		$("#focusText").hide();
+	
+$("#focusText_showHide").click(function() {
+$("#focusText").toggle('fast');
+});
+	});
+			//hidingtoggling goals section
+	$(document).ready(function() {
+		$("#goalsText").hide();
+	
+$("#goalsText_showHide").click(function() {
+$("#goalsText").toggle('fast');
+});
+	});
+	
+	//hidingtoggling at a glance section
+	$(document).ready(function() {
+		$("#atGlanceText").hide();
+	
+$("#atGlanceText_showHide").click(function() {
+$("#atGlanceText").toggle('fast');
+});
+	});
+	
+</script>
+</head>
+<body>
+<!-- HEADER and PRIMARY NAVIGATION
+	================================================== -->
+	<div class="dkgrn">
+<div class="topHeaderBar">
+<!-- translation and search header section -->
+<div class="trans">
+					<a href="#"><img src="images/translation/US.gif" title="American English"/></a>
+					<a href="#"><img src="images/translation/Arabia.gif" title="Arabic"/></a>
+					<a href="#"><img src="images/translation/China.gif" title="Chinese"/></a>
+					<a href="#"><img src="images/translation/Russia.gif" title="Russian"/></a>
+					<a href="#"><img src="images/translation/Spain.gif" title="Spanish"/></a>
+		</div>
+		<div class="topSearch"><form method="get" action="/search" id="search">
+				  <input name="q" type="text" size="40" placeholder="Search..." />
+				</form>
+		</div>
+		</div>
+		<div class="head-logo">
+			<h2 class="remove-bottom">Jefferson County Public Schools</h2>
+      	<h5>Louisville, Kentucky</h5>
+		</div>	
+		<nav >
+	<div class="main-nav">
+     <ul class="rainbow">
+   		<li class="violet"><a href="home.html">Home</a></li>
+			<li class="indigo"><a href="about.html">About</a></li>
+			<li class="blue"><a href="parents.html">Parents</a></li>
+			<li class="green"><a href="students.html">Students</a></li>
+			<li class="yellow"><a href="schools.html">Schools</a></li>
+			<li class="orange"><a href="employees.html">Employees</a></li>
+			<li class="red"><a href="employment.html">Employment</a></li>
+		   <li class="charcoal"><a href="contact.html">Contact Us</a></li>
+       </ul>
+</div>
+      </nav>
+		<div class="shareHeaderBar">
+		<div class="shareIcons">
+			<ul>
+				<li><a href="#"><img src="images/icons/Active-RSS-icon.png" title="RSS"/></a></li>
+				<li><a href="#"><img src="images/icons/Active-Digg-icon.png" title="Digg"/></a></li>
+				<li><a href="#"><img src="images/icons/Active-Facebook-icon.png" title="Facebook"/></a></li>
+				<li><a href="#"><img src="images/icons/Active-Google-plus-icon.png" title="Google+"/></a></li>
+				<li><a href="#"><img src="images/icons/Active-Twitter-icon.png" title="Twitter"/></a></li>
+				<li><a href="#"><img src="images/icons/Active-Tumblr-icon.png" title="Tumblr"/></a></li>
+				<li><a href="#"><img src="images/icons/Active-StumbleUpon-icon.png" title="Stumb"/></a></li>
+				<li><a href="#"><img src="images/icons/Active-Pinterest-icon.png" title="Pinterest"/></a></li>
+			</ul>
+		</div>
+</div>
+</div>
+<!-- Slideshow
+================================================== -->
+<h1 class="centertxt">Slideshow will go here</h1>
+<hr>
+
+<!-- End TOP static navigation
+================================================== -->
+<div class="container">
+<div class="sixteen columns">
+		<h2 class="centertxt">Welcome to Jefferson County Public Schools!</h2>
+		</div>
+		<div class="one-third column">
+			<div class="box red">
+					<img src="images/icons/icon1.png" />
+					<h3>News</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra convallis auctor. Sed accumsan libero quis mi commodo et suscipit enim lacinia.</p>
+					
+				</div>
+				
+			</div>
+		<div class="one-third column">
+			<div class="box orange">
+					<img src="images/icons/icon2.png" />
+					<h3>What's Happening</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra convallis auctor. Sed accumsan libero quis mi commodo et suscipit enim lacinia.</p>
+			
+				</div>
+		</div>
+		<div class="one-third column">
+			<div class="box yellow">
+					<img src="images/icons/icon3.png" />
+					<h3>JCPS Spotlight</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra convallis auctor. Sed accumsan libero quis mi commodo et suscipit enim lacinia.</p>
+				
+				</div>
+					</div>
+	<div class="strategicPlan">
+<div class="sixteen columns dkgrn">
+
+<h2 class="centertxt">Board charts a new course for school district</h2>
+<h5 class="centertxt"><a href="pdfDocs/StrategicPlan.pdf">District Strategic Plan: Vision 2015</a></h5>
+
+<p>Signaling a new direction for JCPS, the Jefferson County Board of Education unanimously approved vision, mission, values, focus areas, and goals statements at its February 13, 2012 board meeting. The statements embody the beliefs and views of the board as well as those of community members who also had an opportunity to offer comments prior to final adoption. The recommendations are presented in the Curriculum Management Audit™.</p>
+</div>
+		<div class="two-thirds column dkgrn">
+			<h5>VISION</h5>
+			
+			<h6 id="visionText_showHide" >+ What we intend to create. </h6>
+
+		
+			<ul id="visionText">
+					<li>All JCPS students graduate prepared to reach their full potential and contribute to our society throughout life.</li>
+				</ul>
+			
+			
+				
+			
+				<h5>MISSION</h5>
+			<h6 id="missionText_showHide">+ Why the organization exists. What functions it performs, and for whom it performs.</h6>
+				
+				<ul id="missionText">
+					<li>To provide relevant, comprehensive, quality instruction in order to educate, prepare, and inspire our students to learn. </li>
+				</ul>
+				
+				<h5>VALUES</h5>
+			<h6 id="valuesText_showHide"> + Deeply held driving forces for action and conduct.</h6>
+			
+				<ul id="valuesText">
+					<li>Our students are cared for and treated as if they are our own. </li>
+					<li>Children learn differently.</li>
+					<li>What happens in the classroom matters the most. </li>
+					<li>The differences of each are assets of the whole.</li>
+					<li>High-quality teaching is the most powerful tool for helping students reach high standards.</li>
+					<li>Leadership and innovation are essential to prepare students for their futures.</li>
+					<li>Talents and resources are used wisely to benefit students.</li>
+					<li>Partnerships among schools, families, and community are important for the health and well being of our students.</li>
+					<li>Adults model integrity, respect, creativity, and accountability.</li>
+	
+				</ul>
+			
+		</div>
+	<div class="one-third column dkgrn">
+			<h5>FOCUS AREAS</h5>
+			<h6 id="focusText_showHide">+ Where we are putting our attention </h6>
+
+			<ul id="focusText">
+					<li>Focus area 1: Increased Learning</li>
+					<li>Focus area 2: Graduation and Beyond</li>
+					<li>Focus area 3: Stakeholder involvement and engagement</li>
+					<li>Focus area 4: Safe, resourced, supported, and equipped schools</li>
+				</ul>
+			
+		
+					<h5>GOALS</h5>
+					<h6 id="goalsText_showHide">+ for each Focus Area </h6>
+				
+		<ul id="goalsText">
+					<li>Goal 1: Every student progresses in his or her learning and meets or exceeds proficiency in all subjects.</li>
+					<li>Goal 2: Every student graduates prepared for his or her postsecondary choice —for college or career, and life. </li>
+					<li>Goal 3: Parents, community, and partners enrich students’ educational experiences and support their success.</li>
+					<li>Goal 4: All schools are staffed, resourced, and equipped to support student needs.</li>
+				</ul>
+				
+				<h5>JCPS at a Glance</h5>
+					<h6 id="atGlanceText_showHide">+ Statistical snapshot</h6>
+				
+		<ul id="atGlanceText">
+			<li>Students: 101,000+</li>
+			<li>Schools: 172 (89 elementary, 23 middle, 19 high, 2 combined, 39 special)</li>
+			<li>Teachers: 6,400+</li>
+			<li>Teachers holding a master’s degree or higher: 84%</li>
+			<li>Average number of years teaching: 10.8 </li>
+			<li>Parent Teacher Association (PTA) membership: 41,000+</li>
+			<li>Market share (percentage of the county’s school-age children enrolled in JCPS): 81.1</li>
+			<li>Business partnerships: 4,904</li>
+					</ul>
+		
+	</div>
+</div>
+	
+	<div class="sixteen columns">
+			<div class="one-thirds column">	
+						<a><img class="partners" src="images/partners/partner01.png" /></a>
+			</div>
+			<div class="one-thirds column">
+						<a><img  class="partners" src="images/partners/partner02.png" /></a>
+			</div>
+			<div class="one-thirds column">
+						<a><img class="partners" src="images/partners/partner03.png" /></a>
+						</div>
+</div>
+
+	</div><!-- container -->
+<!-- footer-->
+<footer class="centertxt">
+<div>
+<p> Jefferson County Public Schools, 3332 Newburg Road, Louisville, Kentucky 40218 | <a href="tel:502-485-3011">(502) 485-3011</a><br />
+    Equal Opportunity/Affirmative Action Employer Offering Equal Educational Opportunities</p>
+    Don't see what you need? <a href="tel:502-485-3228">Call</a> or <a href="mailto:jcps.factline@jefferson.kyschools.us">email</a> the JCPS FactLine at <a href="tel:502-485-3228">(502) 485-3228</a>.<!-- noteToSelf find out how to make this a dialable number-->
+   <div class="it"> 
+   <p class="dkgrn" id="it"> The Information Technology Department has implemented a general IT maintenance window beginning at 3 p.m. and ending at 6 p.m. every Friday.
+      During this time users may experience unavailability of applications and/or services.
+      Please contact the JCPS IT Service Desk at <a href="tel:502-485-3552">(502) 485-3552</a> should problems persist beyond the maintenance window.
+    For inquiries unrelated to technical applications and/or services contact the JCPS receptionist desk at <a href="tel:502-485-3011">(502) 485-3011</a>.</p>
+</div>   
+    <a href="http://www.jefferson.kyschools.us/About/About.html">About Us</a> | <a href="http://www.jefferson.kyschools.us/Parent/index.html">Parents</a> |<a href="http://www.jefferson.kyschools.us/Superintendent.html"> Superintendent</a> | <a href="http://www.jefferson.kyschools.us/Board/Index.html">Board of Education</a> | <a href="http://www.jefferson.kyschools.us/Schools/index.html">Schools</a> | <a href="http://www.jefferson.kyschools.us/Students/Index.html">Students</a> | <a href="http://www.jefferson.kyschools.us/Calendars/Calendar.html">Calendar</a> | <a href="http://www.jefferson.kyschools.us/SupportingJCPS/Index.html">Supporting JCPS</a> | <a href="http://www.jefferson.kyschools.us/Employment.html">Employment</a></p>
+</div>
+
+</footer>
+<div class="copyright centertxt">
+		<p>Copyright © 2015 - <a href="www.suedinym.com" target="_blank">Susan Jensen</a> by <a href="http://www.zerotheme.com" target="_blank">Suedinym.com</a></p>
+</div>
+<!-- End Document
+================================================== -->
+</body>
+</html>
